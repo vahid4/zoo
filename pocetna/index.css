@@ -40,6 +40,10 @@ header div ul li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
 .logoDiv img {
   width: 20%;
   height: 200%;
