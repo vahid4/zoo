@@ -12,6 +12,10 @@
 .landpage {
   width: 100vw;
   height: 100vh;
+  background-image: url(../photos/sova.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header {
   width: 100vw;
@@ -47,7 +51,52 @@ a {
 }
 
 .logoDiv img {
-  width: 20%;
-  height: 200%;
-  margin-top: -1rem;
+  width: auto;
+  height: 100%;
+}
+
+.registracijaSection {
+  width: 100vw;
+  height: 90vh;
+  border: 1px solid red;
+}
+
+.registracija {
+  width: 30%;
+  height: 85%;
+  background-color: rgb(172, 172, 172, 0.5);
+  position: relative;
+  left: 60%;
+  top: 5%;
+  border-radius: 10%;
+}
+
+form h2 {
+  text-align: center;
+  margin-top: 5%;
+  padding-top: 5%;
+}
+
+form {
+  margin: 5%;
+  height: 100%;
+  font-size: x-large;
+}
+
+form label {
+  display: block;
+}
+form button {
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  height: 40px;
+  width: 180px;
+  border-radius: 10%;
+  border-color: gray;
+}
+
+form input {
+  width: 80%;
+  height: 5%;
 }

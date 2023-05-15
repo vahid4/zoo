@@ -72,3 +72,26 @@ header div ul :hover {
   font-size: 1.3rem;
   margin-left: 15px;
 }
+
+.secondSection {
+  width: 100vw;
+  height: 90vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.secondSection div {
+  width: 27%;
+  height: 80%;
+  border: 1px solid red;
+  border-radius: 5%;
+  padding: 1%;
+}
+
+.secondSection div img {
+  width: 100%;
+  height: 40%;
+  border-radius: 5%;
+}

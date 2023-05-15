@@ -6,7 +6,7 @@
 
 .container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .landpage {
@@ -17,8 +17,8 @@ header {
   width: 100vw;
   height: 10%;
   display: flex;
-  /* color: #dfaf67; */
   color: antiquewhite;
+  background-color: chocolate;
 }
 
 header div {
@@ -47,7 +47,47 @@ a {
 }
 
 .logoDiv img {
+  width: 10%;
+  height: 100%;
+}
+
+.landpageOautoru {
+  width: 100vw;
+  height: 90%;
+  border: 1px solid red;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart {
+  width: 80%;
+  height: 80%;
+  background-color: chocolate;
+  border-radius: 20%;
+  padding: 3%;
+}
+
+.cart h1 {
+  text-align: center;
+  font-size: xx-large;
+  color: antiquewhite;
+}
+
+.cart img {
   width: 20%;
-  height: 200%;
-  margin-top: -1rem;
+  height: 80%;
+  border-radius: 10%;
+  margin-left: 10px;
+}
+
+.mainCart {
+  display: flex;
+  color: antiquewhite;
+}
+
+.mainCart p {
+  padding: 2%;
+  font-size: x-large;
 }

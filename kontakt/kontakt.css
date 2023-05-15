@@ -19,6 +19,7 @@ header {
   display: flex;
   /* color: #dfaf67; */
   color: antiquewhite;
+  background-color: chocolate;
 }
 
 header div {
@@ -47,7 +48,62 @@ a {
 }
 
 .logoDiv img {
-  width: 20%;
-  height: 200%;
-  margin-top: -1rem;
+  width: 10%;
+  height: 100%;
+}
+
+.landpageKontakt {
+  width: 100vw;
+  height: 90%;
+  background-color: wheat;
+  align-items: center;
+}
+.landpageKontakt h1,
+h3 {
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
+.landpageKontakt h1 {
+  font-size: xx-large;
+}
+
+.mainKontakt {
+  width: 95%;
+  height: 82%;
+  background-color: chocolate;
+  margin: 0% 2%;
+  display: flex;
+}
+
+.mainKontakt div {
+  width: 50%;
+  height: 100%;
+}
+
+.kontaktLeft {
+  color: antiquewhite;
+  padding: 5%;
+  font-size: x-large;
+}
+
+.kontaktLeft h2,
+p {
+  margin: 10px 0px;
+}
+
+.kontaktRight {
+  color: antiquewhite;
+  padding: 5%;
+}
+
+input {
+  width: 90%;
+  height: 25px;
+}
+
+label {
+  display: block;
+  font-size: x-large;
 }
