@@ -9,12 +9,12 @@ body {
 }
 .container {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .landpage {
   width: 100vw;
-  height: 100vh;
+  height: auto;
 }
 header {
   width: 100vw;
@@ -22,14 +22,17 @@ header {
   display: flex;
   /* color: #dfaf67; */
   color: antiquewhite;
+  background-color: chocolate;
 }
-
+.lista {
+  height: 100%;
+}
 header div {
   width: 50%;
   height: 100%;
 }
 header div ul {
-  height: 100%;
+  height: 10vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -50,16 +53,58 @@ a {
 }
 
 .logoDiv img {
-  width: 20%;
-  height: 200%;
-  margin-top: -1rem;
+  width: 10%;
+  height: 100%;
 }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: wheat;
+}
+
+section h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+section div {
+  width: 80%;
+  height: 35vh;
+  /* border: 1px solid black; */
+  margin: 10px 0px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: chocolate;
+  box-shadow: 15px 10px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+section div p {
+  padding: 10px;
+  font-size: larger;
+  color: antiquewhite;
+}
+section div img {
+  height: 100%;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.viseOovome {
+  font-style: italic;
+  color: lightblue;
+  text-decoration: underline;
+}
+
 /* -----foooteeerrrr------------ */
 
 footer {
   width: 100vw;
   height: 10vw;
-  background-color: wheat;
+  background-color: chocolate;
   padding: 10px;
   display: flex;
   justify-content: space-evenly;

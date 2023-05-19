@@ -89,10 +89,11 @@ header div ul :hover {
 .secondSection div {
   width: 27%;
   height: 80%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   border-radius: 5%;
   padding: 1%;
   background-color: wheat;
+  box-shadow: 15px 10px 17px 0px rgba(0, 0, 0, 0.75);
 }
 
 .secondSection div img {

@@ -88,11 +88,21 @@ a {
 .mainCart {
   display: flex;
   color: antiquewhite;
+  /* flex-wrap: wrap; */
 }
 
 .mainCart p {
   padding: 2%;
   font-size: x-large;
+}
+.mainCart img {
+  margin-top: -120px;
+}
+
+.icons {
+  position: relative;
+  top: 20px;
+  /* border: 1px solid black; */
 }
 
 /* -----foooteeerrrr------------ */
@@ -100,7 +110,7 @@ a {
 footer {
   width: 100vw;
   height: 10vw;
-  background-color: wheat;
+  background-color: chocolate;
   padding: 10px;
   display: flex;
   justify-content: space-evenly;

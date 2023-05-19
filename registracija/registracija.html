@@ -36,18 +36,44 @@
             <form action="">
               <h2>Registracija</h2>
               <label for="">Ime:</label>
-              <input type="text" name="" id="" />
+              <input type="text" id="ime" onblur="proveriIme()" />
               <label for="">Prezime:</label>
-              <input type="text" name="" id="" />
+              <input
+                type="text"
+                name=""
+                id="prezime"
+                onblur="proveriPrezime()"
+              />
               <label for="">Korisničko ime:</label>
-              <input type="text" name="" id="" />
+              <input
+                type="text"
+                name=""
+                id="korisnicko"
+                onblur="proveriKorisnicko()"
+              />
+              <p id="korisnickiP"></p>
               <label for="">Email:</label>
-              <input type="email" name="" id="" />
+              <input
+                type="email"
+                name=""
+                id="email"
+                onblur="proveriEmailAdresu()"
+              />
               <label for="">Lozinka:</label>
-              <input type="password" name="" id="" />
+              <input
+                type="password"
+                name=""
+                id="password"
+                onblur="proveriPassword()"
+              />
               <label for="">Datum rođenja:</label>
-              <input type="date" name="" id="" />
-              <button type="submit">Registruj se</button>
+              <input
+                type="date"
+                name=""
+                id="datumRodjenja"
+                onblur="proveriDatum()"
+              />
+              <button type="submit" id="registrujSe">Registruj se</button>
             </form>
           </div>
         </section>
@@ -105,5 +131,6 @@
         </footer>
       </div>
     </div>
+    <script src="./registracija.js"></script>
   </body>
 </html>

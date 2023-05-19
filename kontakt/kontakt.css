@@ -78,6 +78,7 @@ h3 {
   background-color: chocolate;
   margin: 0% 2%;
   display: flex;
+  box-shadow: 15px 10px 17px 0px rgba(0, 0, 0, 0.75);
 }
 
 .mainKontakt div {
@@ -87,13 +88,13 @@ h3 {
 
 .kontaktLeft {
   color: antiquewhite;
-  padding: 5%;
-  font-size: x-large;
+  padding: 5px;
+  font-size: large;
 }
 
 .kontaktLeft h2,
 p {
-  margin: 10px 0px;
+  margin: 5px 0px;
 }
 
 .kontaktRight {
