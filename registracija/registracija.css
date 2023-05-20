@@ -66,11 +66,11 @@ a {
 
 .registracija {
   width: 30%;
-  height: 93%;
+  height: 98%;
   background-color: rgb(172, 172, 172, 0.5);
   position: relative;
   left: 60%;
-  top: 5%;
+  /* top: 1%; */
   border-radius: 10%;
 }
 .registracija form p {
