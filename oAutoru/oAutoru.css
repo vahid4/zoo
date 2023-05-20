@@ -158,3 +158,9 @@ footer {
   padding: 5px;
   margin-left: 15px;
 }
+
+.nav-link.active {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-style: italic;
+}
