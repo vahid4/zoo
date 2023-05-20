@@ -21,22 +21,33 @@
           </div>
           <div class="lista">
             <ul>
-              <li><a href="../pocetna/index.html">Početna</a></li>
-              <li><a href="../istrazi/istrazi.html">Istraži</a></li>
-              <li><a href="../kontakt/kontakt.html">Kontakt</a></li>
-              <li><a href="../oAutoru/oAutoru.html">O autoru</a></li>
               <li>
-                <a href="../registracija/registracija.html">Registracija</a>
+                <a href="../pocetna/index.html" class="nav-link">Početna</a>
+              </li>
+              <li>
+                <a href="../istrazi/istrazi.html" class="nav-link">Istraži</a>
+              </li>
+              <li>
+                <a href="../kontakt/kontakt.html" class="nav-link">Kontakt</a>
+              </li>
+              <li>
+                <a href="../oAutoru/oAutoru.html" class="nav-link">O autoru</a>
+              </li>
+              <li>
+                <a href="../registracija/registracija.html" class="nav-link"
+                  >Registracija</a
+                >
               </li>
             </ul>
           </div>
         </header>
         <section class="registracijaSection">
           <div class="registracija">
-            <form action="">
+            <form onsubmit="submit()">
               <h2>Registracija</h2>
               <label for="">Ime:</label>
               <input type="text" id="ime" onblur="proveriIme()" />
+              <p id="imeP"></p>
               <label for="">Prezime:</label>
               <input
                 type="text"
@@ -44,6 +55,7 @@
                 id="prezime"
                 onblur="proveriPrezime()"
               />
+              <p id="prezimeP"></p>
               <label for="">Korisničko ime:</label>
               <input
                 type="text"
@@ -59,6 +71,7 @@
                 id="email"
                 onblur="proveriEmailAdresu()"
               />
+              <p id="emailP"></p>
               <label for="">Lozinka:</label>
               <input
                 type="password"
@@ -66,6 +79,7 @@
                 id="password"
                 onblur="proveriPassword()"
               />
+              <p id="passP"></p>
               <label for="">Datum rođenja:</label>
               <input
                 type="date"
@@ -73,7 +87,12 @@
                 id="datumRodjenja"
                 onblur="proveriDatum()"
               />
-              <button type="submit" id="registrujSe">Registruj se</button>
+              <p></p>
+              <button type="submit" id="registrujSe">
+                <a href="./uspesnaRegistracija.html" target="_blank"
+                  >Registruj se</a
+                >
+              </button>
             </form>
           </div>
         </section>

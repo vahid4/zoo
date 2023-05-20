@@ -66,12 +66,20 @@ a {
 
 .registracija {
   width: 30%;
-  height: 85%;
+  height: 93%;
   background-color: rgb(172, 172, 172, 0.5);
   position: relative;
   left: 60%;
   top: 5%;
   border-radius: 10%;
+}
+.registracija form p {
+  font-size: 15px;
+  color: red;
+}
+
+.registracija form button a {
+  color: black;
 }
 
 form h2 {
@@ -158,4 +166,9 @@ footer {
   font-size: x-large;
   padding: 5px;
   margin-left: 15px;
+}
+/* ----------- */
+.nav-link.active {
+  text-decoration: underline;
+  background-color: yellow;
 }
