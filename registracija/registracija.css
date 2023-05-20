@@ -170,5 +170,6 @@ footer {
 /* ----------- */
 .nav-link.active {
   text-decoration: underline;
-  background-color: yellow;
+  font-weight: bolder;
+  font-style: italic;
 }

@@ -77,21 +77,37 @@ function submit() {
 
 // ----------------------------------
 
-// Sacekajte da se ucita DOM
-document.addEventListener("DOMContentLoaded", function () {
-  // Dobijanje trenutne putanje
-  var currentPath = window.location.pathname;
+// // Sacekajte da se ucita DOM
+// document.addEventListener("DOMContentLoaded", function () {
+//   // Dobijanje trenutne putanje
+//   var currentPath = window.location.pathname;
 
-  // Dobijanje svih navigacijskih linkova
-  var navLinks = document.getElementsByClassName("nav-link");
+//   // Dobijanje svih navigacijskih linkova
+//   var navLinks = document.getElementsByClassName("nav-link");
 
-  // Dodavanje klase "active"
-  for (var i = 0; i < navLinks.length; i++) {
-    var linkPath = navLinks[i].getAttribute("href");
+//   // Dodavanje klase "active"
+//   for (var i = 0; i < navLinks.length; i++) {
+//     var linkPath = navLinks[i].getAttribute("href");
 
-    // Provjera da li je trenutna putanja jednaka putanji linka
-    if (currentPath.includes(linkPath)) {
-      navLinks[i].classList.add("active");
-    }
+//     // Provjera da li je trenutna putanja jednaka putanji linka
+//     if (currentPath.includes(linkPath)) {
+//       navLinks[i].classList.add("active");
+//     }
+//   }
+// });
+
+// Dohvati naziv trenutne stranice
+var currentLocation = window.location.href;
+
+// Dohvati sve linkove
+var navLinks = document.querySelectorAll("header ul li a");
+
+// Iteriraj kroz linkove navigacije
+for (var i = 0; i < navLinks.length; i++) {
+  var link = navLinks[i];
+
+  // Proveri da li je link isti kao trenutna stranica
+  if (link.href === currentLocation) {
+    link.classList.add("active");
   }
-});
+}
